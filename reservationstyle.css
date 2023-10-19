@@ -1,0 +1,12 @@
+input, textarea {
+    display: block;
+    }
+  .reservation {
+    padding-left: 25px;
+  }
+  
+  .body{
+    background-color: coral;
+    border-width: 100%;
+  }
+  

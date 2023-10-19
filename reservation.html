@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="reservationstyle.css">
+    <!-- favicon -->
+    <link href="data:image/jpeg;base64,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
+                p/lthGcViuw+0rsvBncU/JJel6MvSH9pM7tfFQISTyf6b//Z" rel="icon" /> 
+    <link rel="stylesheet"  href="reservationstyle.css" />
+ </head>
+<body>
+  <style>
+    body {
+      background-color: chocolate;
+      border: solid 1px rgb(39, 39, 38);
+      padding: 50px;
+      border-radius: 80px;
+      border-width: 100px;
+      border-style: double;
+    }
+    
+  </style>
+    <div class="reservation">
+        <form>
+          <label for="fname">First Name</label>
+         <input type="text" name="fname" /> 
+        
+      <p>  <label for="lname">Last Name</label>
+          <input type="text" name="lname" /> 
+        
+      <p>  <label for="email">Email</label>
+          <input type="email" name="email" /> <br>
+        
+          <label for="tel">Telephone Number</label>
+          <input type="tel"> <br>
+          <label for="date">Date</label>
+          <input type='date'> <br>
+          <label for="time">Time</label>
+          <input type='time'> <br>
+          <label for="number">No. of guests</label>
+          <input type="number"> <br>
+          <label for="comments">Special Requests</label>
+          <textarea name="comments" id="" cols="50" rows="5"></textarea> <br>
+          <button>Submit</button> <a href="mailtondangprismike650@gmail.com"></a>
+         </form>
+          
+          <iframe
+          width="600"
+          height="450"
+          frameborder="1" style="border: 1px;"
+          src="">
+        </iframe>
+</body>
+</html>
